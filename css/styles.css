@@ -1,0 +1,272 @@
+@charset "utf-8";
+
+/*
+ html5doctor.com Reset Stylesheet
+v1.4.1
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+display:block;
+}
+
+ul, dl {
+list-style:none;
+width:100%;
+}
+
+a {
+text-decoration:none;
+background: none;
+}
+
+html,body {margin:0;padding:0;}
+
+/* end reset */
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+/*
+Theme Name: 
+Designer: 
+Developers: 
+
+
+Colors:
+
+Dark Gold: #B0953A
+Light Gold: #DCD086
+Dark Grey: #58595B
+Light Grey: #E6E7E8
+Background: #F7F6F2
+
+*/
+
+body {
+	background-color:#F7F6F2;
+}
+
+.container {
+	margin: 0 auto;
+	width: 810px;
+	height:auto;
+	padding:0;
+}
+
+/* columns */
+
+.onecol,
+.twocol,
+.threecol,
+.fourcol {
+	height:auto;
+	float:left;
+	margin:0 1.25%;
+	padding:0;
+}
+
+.onecol {
+	width: 97.530864197531%; /* 790px / 810 */
+}
+
+.twocol {
+	width: 47.530864197531%; /* 385px / 810 */
+}
+
+.threecol {
+	width: 30.864197530864%; /* 250px / 810 */
+}
+
+.fourcol {
+	width: 22.530864197531%; /* 182.5px / 810 */
+}
+
+.fourcol img, .threecol img  {
+    -webkit-transition: opacity .2s ease-in; /*safari and chrome */
+    -o-transition: opacity .2s ease-in; /* opera */
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    padding-bottom: 15px;    
+}
+
+.fourcol img:hover, .threecol img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.top_border {
+	border-top: 1px solid #B0953A;
+	margin-top: 15px;
+	padding-top: 10px;
+}
+
+
+/* Regular stuff */
+
+h1, h2, h3 {
+	font-family: tandelle,arial narrow,sans-serif;
+	font-style: normal;
+	font-weight:normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 2.25em; /* 36 / 16 */
+	color:#000;
+}
+
+h1.cap {
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: .8em; /* 16 / 16 */
+	color:#fff;
+	text-transform: none;
+	line-height:1.6em;
+	margin:20px 135px 0 135px;
+}
+
+h2 {
+	font-size: 1.5em; /* 24 / 16 */
+	color:#B0953A;
+	text-align: center;
+}
+
+h2.song_title {
+	font-size: 3.25em; /* 52 / 16 */
+	text-align: left;
+	line-height: .8em;
+	color: #000;
+	margin-bottom: 10px;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+h3 {
+	font-size: 1.0625em; /* 17 / 16 */
+	color:#B0953A;
+}
+
+h4.download {
+	float: right;
+	font-family: "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+	font-size: .55em;
+	font-weight: normal;
+}
+
+p {
+
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.head {
+	background-image: url('/images/ivey_bkgnd_big.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	height:460px;
+	border-bottom: 7px solid #B0953A;
+}
+
+.logo {
+	background-image: url('/images/as_logo.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height:325px;
+	width: 350px;
+	margin: 0 auto;
+	text-indent: -9999px;
+}
+
+::-moz-selection
+{
+color:
+background:
+}
+
+::selection
+{
+color:
+background:
+}
+
+::-webkit-selection
+{
+background:
+color:
+}
+
+.bump {
+	width: 100%;
+	height: 30px;
+	clear:both;
+}
+
+.bumpbump {
+	width: 100%;
+	height: 45px;
+	clear:both;
+}
+
+.dark_gold {
+	color:#B0953A;
+}
+
+
+
+/*  Responsive
+---------------------------------------------------------------------------------------------------- */
+
+/* Desktop! */
+@media screen and (max-width: 960px) {
+
+}
+
+@media screen and (max-width: 650px) {
+
+}
+
+@media screen and (max-device-width: 360px),
+screen and (max-width: 460px) {
+
+}
