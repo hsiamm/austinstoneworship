@@ -8,12 +8,14 @@
 	<title>AS Worship</title>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link rel="stylesheet" href="/css/jquery.fancybox-1.3.4.css" type="text/css" /> 
     <link href='css/jplayer_style.css' rel='stylesheet' type='text/css' />
     <link href='css/thickbox.css' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" type="text/css" href="css/styles.css" media="screen">	
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> 
 
+	
 	<script type="text/javascript" src="http://use.typekit.com/dvt1bdb.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
@@ -21,6 +23,16 @@
     <script src='js/scripts.js' type='text/javascript'></script>
     <script src='js/thickbox-compressed.js' type='text/javascript'></script>
     <script src='js/jquery.jplayer.min.js' type='text/javascript' ></script>
+    <script type="text/javascript" src="../js/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript" src="../js/jquery.fancybox-1.3.4.js"></script>
+    <script type="text/javascript" src="js/organictabs.jquery.js"></script>
+	<script>
+       $(function() {
+    
+           $("#gallery").organicTabs();    
+       });
+    </script>
+    
     <script type='text/javascript'>
     $(document).ready( function(){
         $("#jquery_jplayer_1").jPlayer({
@@ -38,7 +50,28 @@
                     wmode: "window"
             });
         });
-    </script>	
+    </script>
+    
+    <script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+
+			$("a.pop").fancybox({
+				'overlayColor'		: '#000',
+				'overlayOpacity'	: 0.8
+			});
+			
+			
+			// for iframes
+			$(".iframe").fancybox({
+				'overlayColor'		: '#000',
+				'overlayOpacity'	: 0.8			
+			});
+			
+		});
+	</script>	
     
 </head>
 
@@ -56,7 +89,7 @@
 	</div><!--/.head-->
 	
 	<div class="divide">&nbsp;</div>
-	
+	<div class="container">
 		<!-- TABS -->
 		<div id="page-wrap">
     		<div id="gallery">
@@ -95,11 +128,6 @@
 				                                <div class="jp-duration"></div>
 				                        </div>
 				                        <h4 class="download"><a href="#TB_inline?height=155&width=300&inlineId=email_signup" class="thickbox">Free Download</a></h4>
-				                        <!--<form name="input" action="/" method="post">
-				                            Email Address: <input type="text" name="email" />
-				                            <input type="hidden" name="track" value="God Undefeatable" />
-				                            <input type="submit" value="Submit" />
-				                        </form>--> 
 				                </div>
 				
 				                <div class="jp-no-solution">
@@ -114,17 +142,17 @@
 						<div class="onecol"><h1>Theology &amp; Resources</h1></div>
 						
 						<div class="threecol top_border">
-							<img src="images/theo_t1.png"/>
+							<a class="pop" href="images/theo_pop.png"><img alt="Chord Chart" src="images/theo_t1.png" /></a>
 							<h2>Song Theology</h2>
 						</div>
 						
 						<div class="threecol top_border">
-							<img src="images/view_chord_t1.png"/>
-							<h2>View Chord Chart</h2>
+							<a class="pop" href="images/god_undefeatable_chords.png"><img src="images/view_chord_t1.png"/></a>
+							<h2>Pre-View Chord Chart</h2>
 						</div>
 						
 						<div class="threecol top_border">
-							<img src="images/download_chord_t1.png"/>
+							<a href="files/god_undefeatable_chords.pdf"><img src="images/download_chord_t1.png"/></a>
 							<h2>Download Chord Chart</h2>
 						</div>
 						
@@ -133,43 +161,47 @@
 						<div class="onecol"><h1>Teaching Videos</h1></div>
 						
 						<div class="fourcol vid1_t1 top_border">
-							<a href=""><img src="images/story_t1.jpg"/></a>
+							<a class="iframe" href="http://player.vimeo.com/video/29157489"><img src="images/story_t1.jpg"/></a>
 							<h2>Song Story</h2>						
 						</div>
 						
 						<div class="fourcol top_border">
-							<a href=""><img src="images/piano_t1.jpg"/></a>
+							<a class="iframe" href="http://player.vimeo.com/video/29157489"><img src="images/piano_t1.jpg"/></a>
 							<h2>Piano</h2>						
 						</div>
 						
 						<div class="fourcol vid3_t1 top_border">
-							<a href=""><img src="images/guitar_t1.jpg"/></a>
+							<a class="iframe" href="http://player.vimeo.com/video/29157489"><img src="images/guitar_t1.jpg"/></a>
 							<h2>Drums</h2>						
 						</div>
 						
 						<div class="fourcol vid4_t1 top_border">
-							<a href=""><img src="images/drums_t1.jpg"/></a>
+							<a class="iframe" href="http://player.vimeo.com/video/29157489"><img src="images/drums_t1.jpg"/></a>
 							<h2>Piano</h2>						
 						</div>
 									
 					</div><!--/container-->																		
 				</ul><!--/tab1-->
    			 
-   			 
+   			 	<div style="clear:both;"></div>
+				
 				<ul id="t2" class="hide">
-    			    <!--great things-->								
+    			    <h1>Almost&ellip;</h1>
+    			    <h1 class="notyet" style="text-align:center;">Whoa there, Track 02 doesn't release until November 14.<br>Be sure to check back then! </h1>							
     			</ul><!--/tab2-->
-    			        			 
-			        			
-    			<ul id="t2" class="hide">
-    			    <!--great things-->							
-				</ul><!--/tab3-->
 
+   			 	<div style="clear:both;"></div>
+				
+				<ul id="t3" class="hide">
+    			    <h1 class="notyet" style="text-align:center;">Easy tiger, Track 03 doesn't release until November 28.<br>Be sure to check back then! </h1>							
+    			</ul><!--/tab3-->    			
+    			        			 
 			</div> <!-- END List Wrap -->
 		</div> <!--/tabs-->
-		
-		<div class="bumpbump"></div>
-		<div class="bumpbump"></div>		
+	</div><!--/container-->
+
+	<div class="bumpbump"></div>
+	<div class="bumpbump"></div>		
 	
 </body>
 	

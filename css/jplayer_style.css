@@ -125,6 +125,15 @@ div.jp-interface ul.jp-controls li {
     font-size: 11px;
 }
 
+li.jp-controls {
+	margin: 0px;
+	font-size:1.25em; /* 1.25em for testing in site pages */ /* No parent CSS that can effect the size in the demos ZIP */
+	font-weight: normal;
+    font-family: "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+    text-transform: uppercase;
+    line-height:1.6;
+}
+
 div.jp-interface ul.jp-controls a {
     text-decoration: none;
     /*display:block;
