@@ -186,7 +186,6 @@
    			 	<div style="clear:both;"></div>
 				
 				<ul id="t2" class="hide">
-    			    <h1>Almost&ellip;</h1>
     			    <h1 class="notyet" style="text-align:center;">Whoa there, Track 02 doesn't release until November 14.<br>Be sure to check back then! </h1>							
     			</ul><!--/tab2-->
 
