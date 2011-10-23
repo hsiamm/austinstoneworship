@@ -91,10 +91,8 @@
 	
 	<div class="divide">&nbsp;</div>
 	
-	<div class="container" style="background-image: url('/images/preview.png');height:1000px;background-repeat:no-repeat;">
-
-		<p>Track 01, <em>God Undefeatale</em>, from our new album will be available Monday, October 24 for a free download. In the meantime, be sure to spread the word about our new site.</p>
-		<p>We hope you're as excited as we are for this record to launch!</p>
+	<div class="container">
+		<p>Because we couldn't wait until December, starting Monday, October 24, we will be sharing a free download of a single from our new album! In the meantime, check out our Facebook and Twitter for more info. We hope you're as excited as we are for this launch and be sure to spread the word! </p>
 		
 		<div style="float:left;width:40px;margin-left:200px"><p style="text-align:center;"><a href="http://facebook.com/austinstoneworship"><img src="images/fb.png" style="margin-left:15px;" width="28" height="30" /><br>
 		Facebook </a></p></div> 
