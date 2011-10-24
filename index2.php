@@ -86,7 +86,7 @@
 </head>
 
 <body id="">
-
+	
 	<div class="head">
 		
 		<div class="container">
@@ -239,7 +239,6 @@
 
 	<div class="bumpbump"></div>
 	<div class="bumpbump"></div>		
-	
 </body>
 	
 </html>
