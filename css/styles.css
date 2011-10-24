@@ -271,13 +271,14 @@ margin-left: 8px;
 cursor:pointer;
 }
 
-.social {
-	width:500px;
+.footer {
+	width:100%;
 	height: auto;
 	margin: 0 auto;
+	text-align: center;
 }
 
-.social img {
+.footer img {
 	width:26px;
 	height:auto;
 	margin-left: 

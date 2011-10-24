@@ -4,7 +4,6 @@
 <head>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta property="og:image" content="http://austinstoneworship.com/images/asw_fb.png"/> 
 
 	<title>Austin Stone Worship</title>
 
@@ -37,13 +36,13 @@
         $("#jquery_jplayer_1").jPlayer({
                     ready: function () {
                             $(this).jPlayer("setMedia", {
-                                    mp3: "/music/god_undefeatable.mp3",
+                                    mp3: "/music/god_undefeatable.mp3"
                             });
                     },
                     play: function() { // To avoid both jPlayers playing together.
                             $(this).jPlayer("pauseOthers");
                     },
-                    swfPath: "/",
+                    swfPath: "/js",
                     supplied: "mp3",
                     cssSelectorAncestor: "#jp_container_1",
                     wmode: "window"
@@ -72,22 +71,10 @@
 		});
 	</script>	
     
-    <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
-    <script>
-        function popup() {
-            window.open('https://twitter.com/share?text=I just got a free download from Austin Stone Worship.',"Share","status=1,height=450,width=550,resizable=0");
-        }    
-        function fbs_click() {
-            u=location.href;
-            window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u),'sharer','toolbar=0,status=0,width=626,height=336');
-            return false;
-        }
-    </script>
-    
 </head>
 
 <body id="">
-	
+
 	<div class="head">
 		
 		<div class="container">
@@ -120,17 +107,16 @@
 					        <div class="jp-type-single">
 				                <div class="jp-gui jp-interface">
 
-				                 <div id="custom-tweet-button">
-					                <a onClick="popup()" target="_blank">
+				                 <!--<div id="custom-tweet-button">
+					                <a onClick="popup('https://twitter.com/share?url=http%3A%2F%2Faustinstone.org%2Fsermons%2Fitem%2Fthe-temptation-of-christ&text=Check out The+Temptation+of+Christ+%23ascc')" target="_blank">
 							            <img src="images/twitter.png" />
 							        </a>
-							    </div><!--/tweet-->
-				                
-				                <div id="custom-fb-button">
-					                <a onclick="fbs_click()" target="_blank">
+							    </div>-->
+				                 <!--<div id="custom-fb-button">
+					                <a onclick="fbs_click('http%3A%2F%2Faustinstone.org%2Fsermons%2Fitem%2Fthe-temptation-of-christ')" target="_blank">
 							            <img src="images/fb.png" />
 							        </a>
-							    </div><!--/facebook-->							    
+							    </div>/facebook-->							    
 
 							    
 				                        <h3>TRACK</h3>
@@ -233,13 +219,14 @@
 	<div class="container">
 	<div class="bump">&nbsp;</div>
 	<div class="top_border">&nbsp;</div>
-		<div class="footer">
+		<div class="social">
 			<a href="http://facebook.com/austinstoneworship"><p>Facebook</a> &nbsp;|&nbsp; <a href="http://twitter.com/asworship">Twitter</a> &nbsp;|&nbsp; <a href="mailto:info@austinstoneworship.com">Email</a></p></a>			
 		</div>
 	</div><!--/container-->
 
 	<div class="bumpbump"></div>
 	<div class="bumpbump"></div>		
+	
 </body>
 	
 </html>
