@@ -71,6 +71,18 @@
 		});
 	</script>	
     
+    <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+    <script>
+        function popup() {
+            window.open('https://twitter.com/share?text=I just got a free download from Austin Stone Worship.',"Share","status=1,height=450,width=550,resizable=0");
+        }    
+        function fbs_click() {
+            u=location.href;
+            window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u),'sharer','toolbar=0,status=0,width=626,height=336');
+            return false;
+        }
+    </script>
+    
 </head>
 
 <body id="">
@@ -107,16 +119,17 @@
 					        <div class="jp-type-single">
 				                <div class="jp-gui jp-interface">
 
-				                 <!--<div id="custom-tweet-button">
-					                <a onClick="popup('https://twitter.com/share?url=http%3A%2F%2Faustinstone.org%2Fsermons%2Fitem%2Fthe-temptation-of-christ&text=Check out The+Temptation+of+Christ+%23ascc')" target="_blank">
+				                 <div id="custom-tweet-button">
+					                <a onClick="popup()" target="_blank">
 							            <img src="images/twitter.png" />
 							        </a>
-							    </div>-->
-				                 <!--<div id="custom-fb-button">
-					                <a onclick="fbs_click('http%3A%2F%2Faustinstone.org%2Fsermons%2Fitem%2Fthe-temptation-of-christ')" target="_blank">
+							    </div><!--/tweet-->
+				                
+				                <div id="custom-fb-button">
+					                <a onclick="fbs_click()" target="_blank">
 							            <img src="images/fb.png" />
 							        </a>
-							    </div>/facebook-->							    
+							    </div><!--/facebook-->							    
 
 							    
 				                        <h3>TRACK</h3>
@@ -173,7 +186,7 @@
 						
 						<div class="bumpbump">&nbsp;</div>
 						
-						<!--<div class="onecol"><h1>Teaching Videos</h1></div>
+						<div class="onecol"><h1>Teaching Videos</h1></div>
 						
 						<div class="fourcol vid1_t1 top_border">
 							<a class="iframe" href="http://player.vimeo.com/video/29157489"><img src="images/story_t1.jpg"/></a>
@@ -193,7 +206,7 @@
 						<div class="fourcol vid4_t1 top_border">
 							<a class="iframe" href="http://player.vimeo.com/video/29157489"><img src="images/drums_t1.jpg"/></a>
 							<h2>Piano</h2>						
-						</div>-->
+						</div>
 									
 					</div><!--/container-->																		
 				</ul><!--/tab1-->

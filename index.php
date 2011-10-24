@@ -36,13 +36,13 @@
         $("#jquery_jplayer_1").jPlayer({
                     ready: function () {
                             $(this).jPlayer("setMedia", {
-                                    mp3: "/music/god_undefeatable.mp3",
+                                    mp3: "/music/god_undefeatable.mp3"
                             });
                     },
                     play: function() { // To avoid both jPlayers playing together.
                             $(this).jPlayer("pauseOthers");
                     },
-                    swfPath: "/",
+                    swfPath: "/js",
                     supplied: "mp3",
                     cssSelectorAncestor: "#jp_container_1",
                     wmode: "window"
