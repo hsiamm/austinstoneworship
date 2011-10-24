@@ -89,7 +89,7 @@ body {
 .fourcol {
 	height:auto;
 	float:left;
-	margin:0 1.25%;
+	margin:0 1.234567901235%; /* 10px / 810 */
 	padding:0;
 }
 
