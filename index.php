@@ -187,27 +187,27 @@
 						
 						<div class="bumpbump">&nbsp;</div>
 						
-						<!--<div class="onecol"><h1>Teaching Videos</h1></div>
+						<div class="onecol"><h1>Teaching Videos</h1></div>
 						
 						<div class="fourcol vid1_t1 top_border">
-							<a class="iframe" href="http://player.vimeo.com/video/29157489"><img src="images/story_t1.jpg"/></a>
-							<h2>Song Story</h2>						
+							<a class="iframe" href="http://player.vimeo.com/video/31089270"><img src="images/story_t1.jpg"/></a>
+							<h2>Song Story</h2>
 						</div>
 						
 						<div class="fourcol top_border">
-							<a class="iframe" href="http://player.vimeo.com/video/29157489"><img src="images/piano_t1.jpg"/></a>
-							<h2>Piano</h2>						
+							<a class="iframe" href="http://player.vimeo.com/video/31112716"><img src="images/piano_t1.jpg"/></a>
+							<h2>Piano</h2>		
 						</div>
 						
 						<div class="fourcol vid3_t1 top_border">
-							<a class="iframe" href="http://player.vimeo.com/video/29157489"><img src="images/guitar_t1.jpg"/></a>
-							<h2>Drums</h2>						
+							<a class="iframe" href="http://player.vimeo.com/video/31124476"><img src="images/guitar_t1.jpg"/></a>
+							<h2>Guitar</h2>		
 						</div>
 						
 						<div class="fourcol vid4_t1 top_border">
-							<a class="iframe" href="http://player.vimeo.com/video/29157489"><img src="images/drums_t1.jpg"/></a>
-							<h2>Piano</h2>						
-						</div>-->
+							<a class="iframe" href="http://player.vimeo.com/video/31044904"><img src="images/drums_t1.jpg"/></a>
+							<h2>Drums</h2>						
+						</div>
 									
 					</div><!--/container-->																		
 				</ul><!--/tab1-->
