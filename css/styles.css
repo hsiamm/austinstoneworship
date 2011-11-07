@@ -260,8 +260,8 @@ img {
 }
 
 div#data, div#data2 {
-	height: 300px;
-	padding: 40px 40px 0 40px;
+	height: 350px;
+	padding: 25px 40px 0 40px;
 	width:450px;
 	overflow: hidden;
 }

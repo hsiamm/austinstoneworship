@@ -51,7 +51,7 @@
         $("#jquery_jplayer_2").jPlayer({
                     ready: function () {
                             $(this).jPlayer("setMedia", {
-                                    mp3: "/music/love_shines(featuring_aaron_ivey).mp3"
+                                    mp3: "/music/love_shines.mp3"
                             });
                     },
                     play: function() { // To avoid both jPlayers playing together.
