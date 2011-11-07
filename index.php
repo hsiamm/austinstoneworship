@@ -25,6 +25,7 @@
     <script type="text/javascript" src="../js/jquery.fancybox-1.3.4.pack.js"></script>
     <script type="text/javascript" src="../js/jquery.fancybox-1.3.4.js"></script>
     <script type="text/javascript" src="js/organictabs.jquery.js"></script>
+    <!-- organic tabs script -->
 	<script>
        $(function() {
     
