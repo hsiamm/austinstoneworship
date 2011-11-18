@@ -37,7 +37,7 @@
         $("#jquery_jplayer_1").jPlayer({
                     ready: function () {
                             $(this).jPlayer("setMedia", {
-                                    mp3: "http://files.austinstone.org/audio/asw/downloads/god_undefeatable.mp3"
+                                    mp3: "http://files.austinstone.org/audio/asw/god_undefeatable.mp3"
                             });
                     },
                     play: function() { // To avoid both jPlayers playing together.
@@ -51,7 +51,7 @@
         $("#jquery_jplayer_2").jPlayer({
                     ready: function () {
                             $(this).jPlayer("setMedia", {
-                                    mp3: "http://files.austinstone.org/audio/asw/downloads/love_shines.mp3"
+                                    mp3: "http://files.austinstone.org/audio/asw/love_shines.mp3"
                             });
                     },
                     play: function() { // To avoid both jPlayers playing together.
