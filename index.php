@@ -61,7 +61,21 @@
                     supplied: "mp3",
                     cssSelectorAncestor: "#jp_container_2",
                     wmode: "window"
-            });            
+            });      
+        $("#jquery_jplayer_3").jPlayer({
+                    ready: function () {
+                            $(this).jPlayer("setMedia", {
+                                    mp3: "http://files.austinstone.org/audio/asw/solid_rock.mp3"
+                            });
+                    },
+                    play: function() { // To avoid both jPlayers playing together.
+                            $(this).jPlayer("pauseOthers");
+                    },
+                    swfPath: "/js",
+                    supplied: "mp3",
+                    cssSelectorAncestor: "#jp_container_3",
+                    wmode: "window"
+            });                  
         });
     </script>
     
@@ -134,8 +148,8 @@
     		<div id="gallery">
     			<ul class="nav_tab">
             		<li class="nav-one"><a href="#t1">Track 01</a></li>
-            		<li class="nav-two"><a href="#t2" class="current">Track 02</a></li>
-            		<li class="nav-three"><a href="#t3">Track 03</a></li>
+            		<li class="nav-two"><a href="#t2">Track 02</a></li>
+            		<li class="nav-three"><a href="#t3" class="current">Track 03</a></li>
         		</ul>
     		<div class="list-wrap">
     		 	<ul id="t1" class="hide">
@@ -242,7 +256,7 @@
    			 
    			 	<div style="clear:both;"></div>
 				
-				<ul id="t2">
+				<ul id="t2" class="hide">
     		 		<div class="container">
 						  <!-- //First player -->
 						<div id="jquery_jplayer_2" class="jp-jplayer"></div>
@@ -296,7 +310,7 @@
 				                        To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
 				                </div>
 					        </div>
-						</div><!-- //End first player -->
+						</div><!-- //End second player -->
 						
 						<div class="bumpbump">&nbsp;</div>
 						
@@ -346,9 +360,102 @@
 
    			 	<div style="clear:both;"></div>
 				
-				<ul id="t3" class="hide">
-    			    <p style="text-align:center;height:400px;">Easy tiger, Track 03 doesn't release until November 21.<br>Be sure to check back then! </h1>							
-    			</ul><!--/tab3-->    			
+				<ul id="t3">
+    		 		<div class="container">
+						  <!-- //First player -->
+						<div id="jquery_jplayer_3" class="jp-jplayer"></div>
+						
+						<div id="jp_container_3" class="jp-audio">
+						
+					        <div class="jp-type-single">
+				                <div class="jp-gui jp-interface">
+
+				                 <div id="custom-tweet-button">
+					                <a onClick="popup()" target="_blank">
+							            <img src="images/twitter.png" />
+							        </a>
+							    </div><!--/tweet-->
+				                
+				                <div id="custom-fb-button">
+					                <a onclick="fbs_click()" target="_blank">
+							            <img src="images/fb.png" />
+							        </a>
+							    </div><!--/facebook-->							    
+
+							    
+				                        <h3 style="letter-spacing:2px;">TRACK</h3>
+				                        <h2 class="song_title"><span class="dark_gold">03</span> &nbsp;/&nbsp; SOLID ROCK</h2>
+									    
+				                        <div class="jp-progress">
+				                                <div class="jp-seek-bar">
+				                                        <div class="jp-play-bar"></div>
+				                                </div>
+				                        </div>
+				                        <div class="jp-controls-holder">
+				                            <ul class="jp-controls">
+				                                    <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+				                                    <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+				                                    <li>&nbsp;/&nbsp;</li>
+				                                    <li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+				                            </ul>
+				                        </div>
+				                        <div class="jp-time-holder">
+				                                <div class="jp-current-time"></div>
+				                                &ndash;
+				                                <div class="jp-duration"></div>
+				                        </div>
+				                        <div style="clear:both;"></div>
+				                        <a class="pop" href="#data3"><h4 class="download">Free Download</h4></a>
+				                        <div style="display:none"><div id="data3"><iframe height="340" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://theaustinstone.wufoo.com/embed/s6p7x9/"><a href="https://theaustinstone.wufoo.com/forms/s6p7x9/" title="Free Download for SOLID ROCK">Fill out our form</a></iframe></div></div>		                        
+				                </div>
+				
+				                <div class="jp-no-solution">
+				                        <span>Update Required</span>
+				                        To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+				                </div>
+					        </div>
+						</div><!-- //End third player -->
+						
+						<div class="bumpbump">&nbsp;</div>
+						
+						<div class="onecol"><h1>Theology &amp; Resources</h1></div>
+						
+						<div class="threecol top_border">
+							<a href="files/solid_rock_theology.pdf"><img alt="Chord Chart" src="images/theo_t1.png" /></a>
+							<h2>Song Theology</h2>
+						</div>
+						
+						<div class="threecol top_border">
+							<a class="pop" href="images/solid_rock_chords.png"><img src="images/view_chord_t1.png"/></a>
+							<h2>Pre-View Chord Chart</h2>
+						</div>
+						
+						<div class="threecol top_border">
+							<a href="files/solid_rock_chords.pdf"><img src="images/download_chord_t1.png"/></a>
+							<h2>Download Chord Chart</h2>
+						</div>
+						
+						<div class="bumpbump">&nbsp;</div>
+						
+						<div class="onecol"><h1>Teaching Videos</h1></div>
+
+						<div class="threecol top_border">
+							<a class="iframe" href="http://player.vimeo.com/video/32348484"><img src="images/piano_t3.jpg"/></a>
+							<h2>Piano</h2>
+						</div>
+						
+						<div class="threecol vid3_t1 top_border">
+							<a class="iframe" href="http://player.vimeo.com/video/32348518"><img src="images/guitar_t3.jpg"/></a>
+							<h2>Guitar</h2>		
+						</div>
+						
+						<div class="threecol vid4_t1 top_border">
+							<a class="iframe" href="http://player.vimeo.com/video/32348428"><img src="images/drums_t3.jpg"/></a>
+							<h2>Drums</h2>					
+						</div>
+									
+					</div><!--/container-->							
+    			</ul><!--/track 03-->    			
     			        			 
 			</div> <!-- END List Wrap -->
 		</div> <!--/tabs-->
