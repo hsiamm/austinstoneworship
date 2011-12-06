@@ -2,7 +2,7 @@
 		<img src="images/album_head_live.jpg" alt="Austin Stone Live"/>
 	</div>
 	
-	<div class="top_logo">Austin Stone Worship</div>
+	<a href="/"><div class="top_logo">Austin Stone Worship</div></a>
 	
 	<div class="sep">
 		<div class="container">
