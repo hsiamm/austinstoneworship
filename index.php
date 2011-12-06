@@ -43,7 +43,7 @@
 	</script>	
  
  <?php include("includes/social-analytics.php"); ?>
-    
+ <meta http-equiv="refresh" content="7;URL=http://dev.austinstoneworship.com" />     
 </head>
 
 
@@ -108,7 +108,7 @@
 			window.onload=function(){GetCount();}//call when everything has loaded
 			
 			//-->
-		</script>
+		</script><a href="http://stream.austinstone.net/view/requirements.html"><p class="mono" style="margin:0 0 5px 190px;">Browser Requirements</a></p>
 		<div id="countbox"></div><!--/counter-->
 		<a href="http://itunes.apple.com/us/album/id482639306"><div class="move_home"><img src="images/album_cover-live_home.png" /></div></a>	
 		</div><!--/home_wrap-->

@@ -237,6 +237,14 @@ p {
 	margin: 0 0 1.6em 0;
 }
 
+p.mono {
+	font-family: "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+	font-size: 12px;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-style: italic;
+}
+
 a {
  color: #414042;
 }
