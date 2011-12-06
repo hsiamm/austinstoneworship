@@ -4,8 +4,7 @@
 <head>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta property="og:image" content="http://austinstoneworship.com/images/asw_fb.png" />
-
+	<meta property="og:image" content="http://austinstoneworship.com/images/asw_fb2.png"/> 
 
 	<title>Austin Stone Worship</title>
 
