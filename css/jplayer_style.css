@@ -79,8 +79,10 @@ div.jp-interface {
 }
 
 div.jp-audio div.jp-type-single div.jp-interface {
-    height: 200px;
-    width: 750px;
+    height: 150px;
+    width: 660px;
+    background: #414042
+    ;
 }
 div.jp-audio div.jp-type-playlist div.jp-interface {
     height:80px;
@@ -123,6 +125,7 @@ div.jp-interface ul.jp-controls li {
     display:inline;
     float: left;
     font-size: 11px;
+    color:#fff;
 }
 
 li.jp-controls {
@@ -149,17 +152,17 @@ a.jp-pause {
 
 
 a.jp-play {
-    color: #000;
+    color: #fff;
 }
 a.jp-play:hover {
-    color: #B0953A;
+    color: #E6E7E8;
 }
 a.jp-pause {
-    color: #000;
+    color: #fff;
     display: none;
 }
 a.jp-pause:hover {
-    color: #000;
+    color: #fff;
 }
 
 a.jp-stop, a.jp-previous, a.jp-next {
@@ -169,11 +172,11 @@ a.jp-stop, a.jp-previous, a.jp-next {
 }
 
 a.jp-stop {
-    color: #000;
+    color: #fff;
 }
 
 a.jp-stop:hover {
-    color: #B0953A;
+    color: #E6E7E8;
 }
 
 /* @end */
@@ -182,16 +185,16 @@ a.jp-stop:hover {
 
 div.jp-progress {
     overflow:hidden;
-    background-color: #B0953A;
+    background-color: #E6E7E8;
     margin-bottom: 10px;
 }
 div.jp-audio div.jp-progress {
     height:40px;
-    width:750px;
+    width:660px;
 }
 div.jp-audio div.jp-type-single div.jp-progress {
     height:40px;
-    width:750px;
+    width:660px;
 }
 div.jp-audio div.jp-type-playlist div.jp-progress {
     left:166px;
@@ -204,13 +207,13 @@ div.jp-video div.jp-progress {
     height:10px;
 }
 div.jp-seek-bar {
-    background-color: #DCD086;
+    background-color: #fff;
     width:0px;
     height:100%;
     cursor: pointer;
 }
 div.jp-play-bar {
-    background-color: #B0953A;
+    background-color: #E6E7E8;
     width:0px;
     height:100%;
 }
@@ -317,7 +320,7 @@ div.jp-volume-bar-value {
 
 div.jp-audio div.jp-time-holder {
     float:right;
-    color:#000;
+    color:#fff;
     font-size:11px;
 }
 div.jp-audio div.jp-type-single div.jp-time-holder {
@@ -330,7 +333,7 @@ div.jp-audio div.jp-type-playlist div.jp-time-holder {
 
 div.jp-current-time,
 div.jp-duration {
-    color: #000;
+    color: #fff;
     width:35px;
     font-size:11px;
 }
@@ -490,7 +493,7 @@ div.jp-jplayer {
 }
 
 div.jp-jplayer {
-    background-color: #000000;
+    background-color: #fff000;
 }
 
 
@@ -605,12 +608,12 @@ a.jp-shuffle-off:hover {
     font-size:.8em;
     background-color:#eee;
     border:2px solid #009be3;
-    color:#000;
+    color:#fff;
     display:none;
 }
 
 .jp-no-solution a {
-    color:#000;
+    color:#fff;
 }
 
 .jp-no-solution span {
