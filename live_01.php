@@ -3,7 +3,7 @@
     
     <script type='text/javascript'>
     $(document).ready( function(){
-        $("#jquery_jplayer_1").jPlayer({
+        $("#jquery_jplayer_1").jPlayer{
                     ready: function () {
                             $(this).jPlayer("setMedia", {
                                     mp3: "http://files.austinstone.org/audio/asw/god_undefeatable_clip.mp3"

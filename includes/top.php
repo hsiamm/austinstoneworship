@@ -5,8 +5,7 @@
 	<a href="/"><div class="top_logo">Austin Stone Worship</div></a>
 	
 	<div class="sep">
-		<div class="container">
-			<div class="fourcol">&nbsp;</div>		
+		<div class="container">		
 			<div class="fourcol">
 				<div id="preload" class="expand"><h3 style="color:#fff;"><a href="#" style="color:#fff" class="show showdetails">About The Album &rarr;</a></h3>
 					<div class="content">
