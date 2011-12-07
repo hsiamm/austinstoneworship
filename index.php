@@ -36,9 +36,10 @@
 			// for iframes
 			$(".iframe").fancybox({
 				'overlayColor'		: '#000',
-				'overlayOpacity'	: 0.8			
+				'overlayOpacity'	: 0.8,
+				'height'		: 462,
+				'width'			: 803	
 			});
-			
 		});
 	</script>	
  
