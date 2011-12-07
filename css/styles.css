@@ -529,7 +529,7 @@ z-index: 9999;
  margin: 0 auto;
 }
 
-#countbox {
+.stream_tuesday {
 	font-family: franklin-gothic-ext-comp-urw,sans-serif;
 	font-style: normal;
 	font-weight:bold;
