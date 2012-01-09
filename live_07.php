@@ -148,19 +148,22 @@
 					</div>
 					
 					<div class="bumpbump"></div>
-					<div class="threecolb">
-						<a class="iframe" href="http://player.vimeo.com/video/33470610"><img src="images/live_acguitar_t7.png" /></a>
-						<h3>Acoustic Guitar</h3>
+					<div class="fourcolb_3">
+						<a class="iframe" href="http://player.vimeo.com/video/33552839"><img src="images/live_story_t7.png" /></a>
+						<h3>Song Story</h3>
 					</div>
-					<div class="threecolb">
+					<div class="fourcolb_3">
+						<a class="iframe" href="http://player.vimeo.com/video/33470610"><img src="images/live_acguitar_t7.png" /></a>
+						<h3>Acoustin Guitar</h3>
+					</div>
+					<div class="fourcolb_3">
 						<a class="iframe" href="http://player.vimeo.com/video/33470583"><img src="images/live_guitar_t7.png" /></a>
-						<h3>Guitar</h3>
+						<h3>Guitars</h3>
 					</div>	
-					<div class="threecolb">
+					<div class="fourcolb_3">
 						<a class="iframe" href="http://player.vimeo.com/video/33470603"><img src="images/live_drums_t7.png" /></a>
 						<h3>Drums</h3>
 					</div>
-					
 				</div><!--/resources-->
 			
 			</div><!--/fourcol_3-->	

@@ -148,7 +148,22 @@
 					</div>
 					
 					<div class="bumpbump"></div>
-					<div class="coming"><h3 class="grey" style="font-style:italic;">Easy tiger, videos for this track will be released on January 9</h3></div>
+					<div class="fourcolb_3">
+						<a class="iframe" href="http://player.vimeo.com/video/33745842"><img src="images/live_story_t10.png" /></a>
+						<h3>Song Story</h3>
+					</div>
+					<div class="fourcolb_3">
+						<a class="iframe" href="http://player.vimeo.com/video/33745813"><img src="images/live_piano_t10.png" /></a>
+						<h3>Piano</h3>
+					</div>
+					<div class="fourcolb_3">
+						<a class="iframe" href="http://player.vimeo.com/video/33746075"><img src="images/live_guitar_t10.png" /></a>
+						<h3>Guitar</h3>
+					</div>	
+					<div class="fourcolb_3">
+						<a class="iframe" href="http://player.vimeo.com/video/33745790"><img src="images/live_drums_t10.png" /></a>
+						<h3>Drums</h3>
+					</div>
 					
 				</div><!--/resources-->
 			
