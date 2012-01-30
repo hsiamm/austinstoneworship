@@ -1,0 +1,29 @@
+##
+# @version		$Id: htaccess.txt 21101 2011-04-07 15:47:33Z marcushsia $
+##
+
+RewriteEngine On
+
+## Begin - Custom redirects
+#
+# If you need to redirect some pages, or set a canonical non-www to
+# www redirect (or vice versa), place that code here. Ensure those
+# redirects use the correct RewriteRule syntax and the [R=301,L] flags.
+#
+## End - Custom redirects
+
+##
+# Uncomment following line if your webserver's URL
+# is not directly related to physical file paths.
+# Update Your Joomla! Directory (just / for root).
+##
+
+#### put your redirects below ####
+#
+# here's an example:
+# Redirect permanent /old-url http://austinstone.org/new-url
+#
+# now the real stuff is below
+#
+
+Redirect permanent /austinstonelive http://austinstoneworship.com/austinstonelive.php
