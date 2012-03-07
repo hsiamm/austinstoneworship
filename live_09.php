@@ -149,7 +149,7 @@
 					
 					<div class="bumpbump"></div>
 					
-					<div class="coming"><h3 class="grey" style="font-style:italic;">Easy tiger, videos for this track will be released on January 30</h3></div>
+					<div class="coming"><h3 class="grey" style="font-style:italic;">Easy tiger, videos for this track will be released soon.</h3></div>
 
 					
 				</div><!--/resources-->
