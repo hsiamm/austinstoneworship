@@ -149,9 +149,11 @@
 					
 					<div class="bumpbump"></div>
 					
-					<div class="coming"><h3 class="grey" style="font-style:italic;">Easy tiger, videos for this track will be released soon.</h3></div>
-
-					
+						<div style="clear:both;">&nbsp;</div>
+						<div class="bumpbump">&nbsp;</div>
+						<div style="clear:both;">&nbsp;</div>
+						<div class="bumpbump">&nbsp;</div>
+						
 				</div><!--/resources-->
 			
 			</div><!--/fourcol_3-->	
