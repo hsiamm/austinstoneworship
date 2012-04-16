@@ -12,7 +12,7 @@
 
 
 <body>
-<meta HTTP-EQUIV="REFRESH" content="0; url=/live_01.php">	
+<meta HTTP-EQUIV="REFRESH" content="0; url=/live_01">	
 </body>
 	
 </html>

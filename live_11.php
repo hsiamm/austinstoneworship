@@ -59,17 +59,17 @@
 				<h2 class="dkgrey">Track List</h2>
 				<div class="rule"></div>
 					<ul class="track_list">
-						<a href="/live_01.php"><li>01 God Undefeatable</li></a>
-						<a href="/live_02.php"><li>02 Love Shines</li></a>
-						<a href="/live_03.php"><li>03 Forever Reign</li></a>
-						<a href="/live_04.php"><li>04 Your Great Name</li></a>
-						<a href="/live_05.php"><li>05 Solid Rock</li></a>
-						<a href="/live_06.php"><li>06 Praise To The Lord</li></a>
-						<a href="/live_07.php"><li>07 Hallelujah What A Savior</li></a>
-						<a href="/live_08.php"><li>08 The Righteous One</li></a>
-						<a href="/live_09.php"><li>09 All I Need</li></a>
-						<a href="/live_10.php"><li>10 Let Your Kingdom Come</li></a>
-						<a href="/live_11.php"><li class="current">11 You Are Worthy Of Your Glory</li></a>
+						<a href="/live_01"><li>01 God Undefeatable</li></a>
+						<a href="/live_02"><li>02 Love Shines</li></a>
+						<a href="/live_03"><li>03 Forever Reign</li></a>
+						<a href="/live_04"><li>04 Your Great Name</li></a>
+						<a href="/live_05"><li>05 Solid Rock</li></a>
+						<a href="/live_06"><li>06 Praise To The Lord</li></a>
+						<a href="/live_07"><li>07 Hallelujah What A Savior</li></a>
+						<a href="/live_08"><li>08 The Righteous One</li></a>
+						<a href="/live_09"><li>09 All I Need</li></a>
+						<a href="/live_10"><li>10 Let Your Kingdom Come</li></a>
+						<a href="/live_11"><li class="current">11 You Are Worthy Of Your Glory</li></a>
 					</ul>
 				</div><!--/sidebar-->
 			</div><!--/fourcol-->		
