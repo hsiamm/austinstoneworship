@@ -2,7 +2,12 @@
 # @version		$Id: htaccess.txt 21101 2011-04-07 15:47:33Z marcushsia $
 ##
 
+Options -MultiViews
 RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.php [L]
 
 ## Begin - Custom redirects
 #
@@ -27,3 +32,7 @@ RewriteEngine On
 #
 
 Redirect permanent /austinstonelive http://austinstoneworship.com/austinstonelive.php
+
+
+
+

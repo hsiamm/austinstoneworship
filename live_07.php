@@ -154,7 +154,7 @@
 					</div>
 					<div class="fourcolb_3">
 						<a class="iframe" href="http://player.vimeo.com/video/33470610"><img src="images/live_acguitar_t7.png" /></a>
-						<h3>Acoustin Guitar</h3>
+						<h3>Acoustic Guitar</h3>
 					</div>
 					<div class="fourcolb_3">
 						<a class="iframe" href="http://player.vimeo.com/video/33470583"><img src="images/live_guitar_t7.png" /></a>
